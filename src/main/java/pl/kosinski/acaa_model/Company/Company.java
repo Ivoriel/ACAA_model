@@ -1,5 +1,6 @@
 package pl.kosinski.acaa_model.Company;
 
+import pl.kosinski.acaa_model.Address.Address;
 import pl.kosinski.acaa_model.Client.Client;
 
 public class Company {
@@ -7,5 +8,6 @@ public class Company {
     private Long id;
     private String name;
     private Client client;
+    private Address address;
 
 }

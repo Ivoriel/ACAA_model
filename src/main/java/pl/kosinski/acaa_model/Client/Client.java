@@ -6,6 +6,6 @@ public class Client {
 
     private long id;
     private String name;
-    private Address address;
+    private long addressId;
 
 }

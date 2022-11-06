@@ -7,7 +7,7 @@ public class Company {
 
     private Long id;
     private String name;
-    private Client client;
-    private Address address;
+    private long clientId;
+    private long addressId;
 
 }
